@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExamSeat Pro - Exam Hall Seating Management</title>
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        .print\:block, .print\:block * {
+          visibility: visible;
+        }
+        .print\:hidden {
+          display: none !important;
+        }
+        .print\:shadow-none {
+          box-shadow: none !important;
+        }
+        .print\:border-none {
+          border: none !important;
+        }
+        .print\:bg-gray-200 {
+          background-color: #e5e7eb !important;
+        }
+        .print\:mt-4 {
+          margin-top: 1rem !important;
+        }
+        .print\:mb-4 {
+          margin-bottom: 1rem !important;
+        }
+        .print\:gap-1 {
+          gap: 0.25rem !important;
+        }
+        .print\:w-12 {
+          width: 3rem !important;
+        }
+        .print\:h-12 {
+          height: 3rem !important;
+        }
+        .print\:text-xs {
+          font-size: 0.75rem !important;
+          line-height: 1rem !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
