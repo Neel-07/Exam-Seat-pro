@@ -27,7 +27,7 @@ A modern, intelligent examination hall seating management system built with Reac
 
 ## 🚀 Live Demo
 
-[View Live Demo]()
+[View Live Demo](https://exam-seat-pro.vercel.app/)
 
 ## 🛠️ Tech Stack
 
